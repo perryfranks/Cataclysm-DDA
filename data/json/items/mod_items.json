@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mini_painting_brush",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Miniature painting brush" },
+    "description": "A small, fine tipped brush for painting minature models.",
+    "weight": "15 g",
+    "volume": "30 ml",
+    "longest_side": "10 cm",
+    "price": 1000,
+    "price_postapoc": 10,
+    "material": [ "wood" ],
+    "symbol": "|",
+    "color": "white"
+  },
+  {
+    "id": "mini_painting_brush_sable",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Miniature painting brush (sable)" },
+    "description": "A small, fine tipped brush for painting minature models made with high quality sable hair.",
+    "weight": "15 g",
+    "volume": "30 ml",
+    "longest_side": "10 cm",
+    "price": 1000,
+    "price_postapoc": 10,
+    "material": [ "wood" ],
+    "symbol": "|",
+    "color": "white"
+  }
+]
