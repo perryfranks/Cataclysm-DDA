@@ -1,10 +1,9 @@
 [
   {
-    "id": "mini_painting_brush",
+    "abstract": "mini_painting_brush",
     "type": "GENERIC",
     "category": "other",
     "name": { "str": "Miniature painting brush" },
-    "description": "A small, fine tipped brush for painting minature models.",
     "weight": "15 g",
     "volume": "30 ml",
     "longest_side": "10 cm",
@@ -15,18 +14,52 @@
     "color": "white"
   },
   {
+    "id": "mini_painting_brush_size_2",
+    "copy-from": "mini_painting_brush",
+    "type": "GENERIC",
+    "name": { "str": "Miniature painting brush (size 2)" },
+    "description": "A small, fine tipped brush for painting minature models. Size 2, a good all-rounder."
+  },
+  {
     "id": "mini_painting_brush_sable",
+    "copy-from": "mini_painting_brush",
+    "type": "GENERIC",
+    "name": { "str": "Miniature painting brush (sable)" },
+    "description": "A small, fine tipped brush for painting minature models made with high quality sable hair."
+  },
+  {
+    "abstract": "mini_painting_paint",
     "type": "GENERIC",
     "category": "other",
-    "name": { "str": "Miniature painting brush (sable)" },
-    "description": "A small, fine tipped brush for painting minature models made with high quality sable hair.",
-    "weight": "15 g",
-    "volume": "30 ml",
-    "longest_side": "10 cm",
+    "name": { "str": "Miniature painting paint" },
+    "weight": "20 g",
+    "volume": "14 ml",
+    "longest_side": "7 cm",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "wood" ],
-    "symbol": "|",
+    "material": [ "plastic" ],
+    "symbol": "U",
     "color": "white"
+  },
+  {
+    "id": "mini_painting_paint_red",
+    "copy-from": "mini_painting_paint",
+    "type": "GENERIC",
+    "name": { "str": "Miniature paint (red)" },
+    "description": "Water-based acrylic paint designed for small miniatures. This is a violent red"
+  },
+  {
+    "id": "mini_painting_paint_blue",
+    "copy-from": "mini_painting_paint",
+    "type": "GENERIC",
+    "name": { "str": "Miniature paint (blue)" },
+    "description": "Water-based acrylic paint designed for small miniatures. This is a deep blue"
+  },
+  {
+    "id": "mini_painting_paint_green",
+    "copy-from": "mini_painting_paint",
+    "type": "GENERIC",
+    "name": { "str": "Miniature paint (green)" },
+    "description": "Water-based acrylic paint designed for small miniatures. This is a verdent green"
   }
 ]
