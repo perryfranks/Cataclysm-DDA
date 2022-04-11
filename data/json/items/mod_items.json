@@ -61,5 +61,19 @@
     "type": "GENERIC",
     "name": { "str": "Miniature paint (green)" },
     "description": "Water-based acrylic paint designed for small miniatures. This is a verdent green"
+  },
+  {
+    "id": "mini_painting_paint_white",
+    "copy-from": "mini_painting_paint",
+    "type": "GENERIC",
+    "name": { "str": "Miniature paint (white)" },
+    "description": "Water-based acrylic paint designed for small miniatures. This is a creamy white"
+  },
+  {
+    "id": "mini_painting_paint_black",
+    "copy-from": "mini_painting_paint",
+    "type": "GENERIC",
+    "name": { "str": "Miniature paint (black)" },
+    "description": "Water-based acrylic paint designed for small miniatures. This is a dark matt black"
   }
 ]
