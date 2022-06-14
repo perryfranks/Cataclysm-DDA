@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "cranberry_love",
+    "name": "Cranberry Love",
+    "authors": ["Perry Franks"],
+    "description": "Changes the games hatred for cranberries to be optional.",
+    "category": "misc_additions"
+  }
+]

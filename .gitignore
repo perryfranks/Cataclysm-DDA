@@ -1,3 +1,6 @@
+msvc-full-features/distribution/*
+
+
 !src/chkjson
 *.7z
 *.a
