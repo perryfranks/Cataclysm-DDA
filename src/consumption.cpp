@@ -402,6 +402,15 @@ std::pair<int, int> Character::fun_for( const item &comest, bool ignore_already_
         return std::pair<int, int>( 0, 0 );
     }
 
+    // FIXME: remove this 
+    //* if( critter.type->id == mtype_id("mon_cat") ) { ..
+    //std::string cran_id = comest.get_id();
+    itype_id cran_id = comest.type->get_id();
+    // Now how the hell do we make this make sense 
+    // using itype_id = string_id<itype>;
+    // what does string_id<itype> mean? We should figure this out so I know what itype_id is 
+
+    debugmsg("id = %s", cran_id); 
     // As float to avoid rounding too many times
     float fun = comest.get_comestible_fun();
     // Food doesn't taste as good when you're sick

@@ -1,0 +1,25 @@
+[
+    {
+        "type": "COMESTIBLE",
+        "id": "cranberry_juice",
+        "name": { "str": "cranberry juice" },
+        "weight": "250 g",
+        "color": "magenta",
+        "spoils_in": "20 d",
+        "container": "bottle_plastic",
+        "comestible_type": "DRINK",
+        "symbol": "~",
+        "quench": 37,
+        "calories": 112,
+        "description": "Made from real Massachusetts cranberries.  Quite sour, but an interesting taste and nutritious.",
+        "price": 80,
+        "price_postapoc": 50,
+        "material": [ "fruit" ],
+        "primary_material": "water",
+        "volume": "250 ml",
+        "phase": "liquid",
+        "flags": [ "EATEN_COLD" ],
+        "vitamins": [ [ "vitC", 131 ], [ "calcium", 3 ], [ "iron", 1 ] ],
+        "fun": 1
+      }
+]
